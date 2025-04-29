@@ -8,8 +8,8 @@ from sklearn.utils.class_weight import compute_class_weight
 # Configuration
 MODELS_DIR = "models"
 DATASET_DIR = "dataset/"
-BATCH_SIZE = 16
-EPOCHS = 16
+BATCH_SIZE = 25
+EPOCHS = 25
 IMAGE_SIZE = (224, 224)
 
 os.makedirs(MODELS_DIR, exist_ok=True)
