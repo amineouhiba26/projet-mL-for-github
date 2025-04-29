@@ -9,7 +9,7 @@ from sklearn.utils.class_weight import compute_class_weight
 MODELS_DIR = "models"
 DATASET_DIR = "dataset/"
 BATCH_SIZE = 16
-EPOCHS = 15
+EPOCHS = 16
 IMAGE_SIZE = (224, 224)
 
 os.makedirs(MODELS_DIR, exist_ok=True)
@@ -83,7 +83,7 @@ def train_model():
     history = model.fit(
         train_ds,
         validation_data=val_ds,
-        epochs=150,
+        epochs=EPOCHS,
         class_weight=class_weight_dict,
         callbacks=callback_list
     )
