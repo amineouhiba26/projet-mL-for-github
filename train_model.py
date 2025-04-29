@@ -83,7 +83,7 @@ def train_model():
     history = model.fit(
         train_ds,
         validation_data=val_ds,
-        epochs=30,
+        epochs=500,
         class_weight=class_weight_dict,
         callbacks=callback_list
     )
