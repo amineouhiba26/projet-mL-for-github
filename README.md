@@ -171,4 +171,4 @@ loss/epochs
 
 ## Auteur
 
-Ce projet a été réalisé par **Arij Bettaieb** et **Amine Ouhiba** . correct it if needed
+Ce projet a été réalisé par **Arij Bettaieb** et **Amine Ouhiba** . 
