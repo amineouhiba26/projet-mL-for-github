@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - train_model.py
   pull_request:
     branches:
       - main
+    paths:
+      - train_model.py
 
 jobs:
   train-model:
