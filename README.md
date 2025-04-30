@@ -1,6 +1,6 @@
 
 
-# Classification d'accessoires électroniques
+# Classification d'accessoires électroniques :
 
 *Classer automatiquement des chargeurs, smartphones, claviers et autres accessoires à partir d'images.*
 
